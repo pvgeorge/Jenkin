@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetInfoByState>
+         <!--Optional:-->
+         <web:USState>${Properties#USState}</web:USState>
+      </web:GetInfoByState>
+   </soapenv:Body>
+</soapenv:Envelope>
